@@ -1,0 +1,16 @@
+/Users/Bas/Documents/School/HAN/OOSE-DEA/Programmeeropdracht/spotitube/src/test/java/com/github/basbuurman/oose/dea/datasource/datamappers/TrackMapperTest.java
+/Users/Bas/Documents/School/HAN/OOSE-DEA/Programmeeropdracht/spotitube/src/test/java/com/github/basbuurman/oose/dea/resources/exceptionmappers/RequestInvalidExceptionMapperTest.java
+/Users/Bas/Documents/School/HAN/OOSE-DEA/Programmeeropdracht/spotitube/src/test/java/com/github/basbuurman/oose/dea/services/TrackServiceTest.java
+/Users/Bas/Documents/School/HAN/OOSE-DEA/Programmeeropdracht/spotitube/src/test/java/com/github/basbuurman/oose/dea/datasource/datamappers/PlaylistMapperTest.java
+/Users/Bas/Documents/School/HAN/OOSE-DEA/Programmeeropdracht/spotitube/src/test/java/com/github/basbuurman/oose/dea/resources/exceptionmappers/ForbiddenExceptionMapperTest.java
+/Users/Bas/Documents/School/HAN/OOSE-DEA/Programmeeropdracht/spotitube/src/test/java/com/github/basbuurman/oose/dea/services/LoginServiceTest.java
+/Users/Bas/Documents/School/HAN/OOSE-DEA/Programmeeropdracht/spotitube/src/test/java/com/github/basbuurman/oose/dea/resources/TrackResourceTest.java
+/Users/Bas/Documents/School/HAN/OOSE-DEA/Programmeeropdracht/spotitube/src/test/java/com/github/basbuurman/oose/dea/resources/LoginResourceTest.java
+/Users/Bas/Documents/School/HAN/OOSE-DEA/Programmeeropdracht/spotitube/src/test/java/com/github/basbuurman/oose/dea/datasource/TrackDAOTest.java
+/Users/Bas/Documents/School/HAN/OOSE-DEA/Programmeeropdracht/spotitube/src/test/java/com/github/basbuurman/oose/dea/resources/exceptionmappers/NotFoundExceptionMapperTest.java
+/Users/Bas/Documents/School/HAN/OOSE-DEA/Programmeeropdracht/spotitube/src/test/java/com/github/basbuurman/oose/dea/datasource/LoginDAOTest.java
+/Users/Bas/Documents/School/HAN/OOSE-DEA/Programmeeropdracht/spotitube/src/test/java/com/github/basbuurman/oose/dea/resources/exceptionmappers/AuthorizationHasFailedExceptionMapperTest.java
+/Users/Bas/Documents/School/HAN/OOSE-DEA/Programmeeropdracht/spotitube/src/test/java/com/github/basbuurman/oose/dea/resources/PlaylistResourceTest.java
+/Users/Bas/Documents/School/HAN/OOSE-DEA/Programmeeropdracht/spotitube/src/test/java/com/github/basbuurman/oose/dea/datasource/PlaylistDAOTest.java
+/Users/Bas/Documents/School/HAN/OOSE-DEA/Programmeeropdracht/spotitube/src/test/java/com/github/basbuurman/oose/dea/datasource/datamappers/TokenMapperTest.java
+/Users/Bas/Documents/School/HAN/OOSE-DEA/Programmeeropdracht/spotitube/src/test/java/com/github/basbuurman/oose/dea/services/PlaylistServiceTest.java

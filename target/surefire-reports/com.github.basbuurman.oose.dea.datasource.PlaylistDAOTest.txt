@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.github.basbuurman.oose.dea.datasource.PlaylistDAOTest
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.378 s - in com.github.basbuurman.oose.dea.datasource.PlaylistDAOTest

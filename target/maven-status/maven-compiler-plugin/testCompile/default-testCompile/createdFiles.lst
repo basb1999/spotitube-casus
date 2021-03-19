@@ -1,0 +1,13 @@
+com/github/basbuurman/oose/dea/datasource/PlaylistDAOTest.class
+com/github/basbuurman/oose/dea/services/LoginServiceTest.class
+com/github/basbuurman/oose/dea/datasource/TrackDAOTest.class
+com/github/basbuurman/oose/dea/resources/exceptionmappers/RequestInvalidExceptionMapperTest.class
+com/github/basbuurman/oose/dea/datasource/LoginDAOTest.class
+com/github/basbuurman/oose/dea/services/TrackServiceTest.class
+com/github/basbuurman/oose/dea/resources/PlaylistResourceTest.class
+com/github/basbuurman/oose/dea/services/PlaylistServiceTest.class
+com/github/basbuurman/oose/dea/resources/exceptionmappers/ForbiddenExceptionMapperTest.class
+com/github/basbuurman/oose/dea/resources/exceptionmappers/AuthorizationHasFailedExceptionMapperTest.class
+com/github/basbuurman/oose/dea/resources/LoginResourceTest.class
+com/github/basbuurman/oose/dea/resources/TrackResourceTest.class
+com/github/basbuurman/oose/dea/resources/exceptionmappers/NotFoundExceptionMapperTest.class

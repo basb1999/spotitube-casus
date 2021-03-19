@@ -1,0 +1,53 @@
+MySQL-Script:
+
+CREATE-Scripts:
+CREATE TABLE users(
+	user VARCHAR(255) PRIMARY KEY,
+	password VARCHAR(255),
+	name VARCHAR(255),
+	token VARCHAR(255) UNIQUE
+);
+
+CREATE TABLE playlists(
+	playlistId INT AUTO_INCREMENT PRIMARY KEY, 
+	name VARCHAR(255) UNIQUE,
+	owner BIT
+);
+
+CREATE TABLE tracks(
+	trackId INT AUTO_INCREMENT PRIMARY KEY,
+	title VARCHAR(255),
+	performer VARCHAR(255),
+	duration INT,
+	album VARCHAR(255)  DEFAULT 'undefined',
+	playcount INT DEFAULT 0,
+	publicationDate VARCHAR(255) DEFAULT 'undefined',
+	description VARCHAR(255) DEFAULT 'undefined',
+	offlineAvailable BIT DEFAULT 0,
+	UNIQUE (title, performer)
+);
+
+CREATE TABLE playlistTrack(	
+	playlistId INT,
+	trackId INT,
+	PRIMARY KEY(playlistId, trackId),
+	FOREIGN KEY(playlistId) REFERENCES playlists(playlistId),
+	FOREIGN KEY(trackId) REFERENCES tracks(trackId)
+);
+
+CREATE TABLE playlistUser(
+	playlistId INT,
+	user VARCHAR(255),
+	PRIMARY KEY(playlistId, user),
+	FOREIGN KEY(playlistId) REFERENCES playlists(playlistId),
+	FOREIGN KEY(user) REFERENCES users(user)
+);
+
+
+INSERT-Scripts:
+INSERT INTO users VALUES ('bas', 'password123', 'Bas Buurman', '1234-1234-1234');
+INSERT INTO playlists (name, owner) VALUES ('Death metal', true), ('Pop', false);
+INSERT INTO tracks (title, performer, duration, album) VALUES ('Ocean and a rock', 'Lisa Hannigan', 337, 'Sea sew'), ('So long, Marianne', 'Leonard Cohen', 546, 'Songs of Leonard Cohen');
+INSERT INTO tracks (title, performer, duration, playcount, publicationDate, description, offlineAvailable) VALUES ('One', 'Metallica', 423, 37, '18-03-2001', 'Long version', true);
+INSERT INTO playlistTrack VALUES (1, 1), (1, 2), (2, 3);
+INSERT INTO playlistUser VALUES (1, 'bas'), (2, 'bas');
